@@ -50,6 +50,29 @@ class About extends Me
     }
 
     /**
+    * Worked at HillsdaleAssets in Moca, Dominican Republic for 1 year.
+    *
+    * 📆 Duration: 1 year
+    * 🌍 Location: Moca, Dominican Republic
+    *
+    * 🛠 Technologies used:
+    * - SQL
+    * - Laravel
+    * - Vue.js
+    *
+    * #codingMemories #TeamWork #LearningJourney
+    */
+    public function getHillsdaleAssetsExperience(): array
+    {
+        return [
+            'duration' => '1 year',
+            'location' => 'Moca, Dominican Republic',
+            'technologies' => ['SQL', 'Laravel', 'Vue.js'],
+            'responsibilities' => 'Building tools to manage various aspects of a swimwear manufacturing factory.'           
+        ];
+    }
+
+    /**
     * Dreaming of a world where coding is not just a job, but a love affair. 💖✨
     *
     * @return string
